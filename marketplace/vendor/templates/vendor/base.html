@@ -9,6 +9,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <nav class='shadow-lg'>
+        <div class='flex flex-wrap justify-between ml-5 items-center mx-auto px-4 py-2.5'>
+            <a class='flex items-center' href="">
+                <img class='h-9 mr-3' src="https://cdn0.iconfinder.com/data/icons/social-15/200/amazon-256.png" alt="">
+                <span class='self-center text-xml font-semibold'>Digital Marketplace</span>
+            </a>
+            <div class='flex items-center'>
+                <a class='mr-6 text-sm font-medium text-grey-500' href="">Dashboard</a>
+                <a class='mr-6 text-sm font-medium text-grey-500' href="">Sales</a>
+                <a class='mr-6 text-sm font-medium text-grey-500' href="">Orders</a>
+                <a class='mr-6 text-sm font-medium text-grey-500' href="">Create Products</a>
+                <a class='mr-6 text-sm font-medium text-grey-500' href="">My Purchases</a>
+                <a class='mr-6 text-sm font-medium text-grey-500' href="">Logout</a>
+            </div>
+        </div>
+    </nav>
+
     {% block content %}
 
     {% endblock content %}
