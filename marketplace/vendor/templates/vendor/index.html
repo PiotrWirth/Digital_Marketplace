@@ -1,4 +1,10 @@
 {% extends 'vendor/base.html' %}
 {% block content %}
 This is the index page
+{% for product in products %}
+    {{ product.name }}
+    {{ product.price }}
+    {{ product.description}}
+    <br>
+{% endfor %}
 {% endblock content %}
